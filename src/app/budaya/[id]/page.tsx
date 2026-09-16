@@ -86,7 +86,7 @@ const budayaData = [
 	{
 		id: "silat-beksi",
 		name: "Silat Beksi",
-		imageUrl: "",
+		imageUrl: "/images/silat-beksi.jpg",
 		videoUrl: "https://www.youtube.com/results?search_query=video+animasi+silat+beksi+Betawi",
 		category: "Seni Bela Diri",
 		shortDescription:
