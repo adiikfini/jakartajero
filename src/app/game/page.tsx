@@ -44,7 +44,7 @@ export default function GamePage() {
 							Mode Lapangan
 						</span>
 						<h2 className="mt-4 text-2xl font-bold text-emerald-900">
-							Petualangan Barcode
+							Petualangan haritage
 						</h2>
 						<div className="mx-auto mt-6 flex h-48 w-48 flex-col items-center justify-center overflow-hidden rounded-2xl border-2 border-dashed border-gray-300 bg-gray-100 p-3 text-gray-500">
 							<div className="size-36 overflow-hidden bg-white">
