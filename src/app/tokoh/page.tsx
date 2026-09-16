@@ -26,7 +26,7 @@ const tokohList = [
 		title: "Ulama dan Pejuang Jembatan Lima",
 		shortDescription:
 			"Pakar ilmu falak (astronomi Islam) dan tokoh pejuang kemerdekaan yang mengobarkan semangat anti-kolonial di Jakarta Barat.",
-		imageUrl: "/images/Guru-Mansur.jpeg",
+		imageUrl: "/images/guru-mansur.jpeg",
 	},
 	{
 		id: "habib-ali-kwitang",
