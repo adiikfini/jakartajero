@@ -50,7 +50,7 @@ const tokohData = [
 			{ year: "1940-an", event: "Mendukung semangat perjuangan dan penolakan terhadap kolonialisme." },
 			{ year: "1967", event: "Wafat dan dimakamkan di kompleks Masjid Jami Al-Mansur." },
 		],
-		imageUrl: "/images/Guru-Mansur.jpeg",
+		imageUrl: "/images/guru-mansur.jpeg",
 	},
 	{
 		id: "habib-ali-kwitang",
