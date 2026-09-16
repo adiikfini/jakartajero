@@ -50,8 +50,8 @@ const heritageData = [
 		openHours: "24 jam (akses ziarah mengikuti ketentuan pengelola)",
 	},
 	{
-		id: "masjid-kampung-bandar",
-		name: "Masjid Kampung Bandar",
+		id: "masjid-kampung-bandan",
+		name: "Masjid Kampung Bandan",
 		imageUrl: "/images/masjid-kampung-bandan.jpg",
 		location: "Kampung Bandan, Pademangan, Jakarta Utara",
 		establishedYear: "1789 (diperkirakan)",
