@@ -12,7 +12,7 @@ const categories = [
 		title: "Heritage Explorer",
 		href: "/heritage",
 		imgUrl: "/images/mosque.png",
-		description: "Jelajahi masjid dan tempat bersejarah Islam di Jakarta.",
+		description: "Jelajahi tempat bersejarah Islam di Jakarta.",
 	},
 	{
 		title: "Budaya Betawi",
