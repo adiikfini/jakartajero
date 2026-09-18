@@ -52,6 +52,11 @@ export default function BudayaPage() {
 		<main>
             <Navbar />
 			<section className="relative isolate overflow-hidden bg-emerald-900 px-5 pb-20 pt-28 sm:px-8 sm:pt-32">
+				<img 
+					src="/images/budaya-bg.png" 
+					alt="" 
+					className="absolute inset-0 h-full w-full object-cover opacity-30"
+				/>
 				<div
 					className="pointer-events-none absolute -right-24 -top-24 size-96 rounded-full border-32 border-amber-50/5"
 					aria-hidden="true"

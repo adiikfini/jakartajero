@@ -56,8 +56,13 @@ export default function HeritagePage() {
 		<>
 			<Navbar />
 
-			<header className="bg-emerald-900 px-5 py-16 sm:py-20 lg:px-8 lg:py-24">
-				<div className="mx-auto max-w-7xl">
+			<header className="relative bg-emerald-900 px-5 py-16 sm:py-20 lg:px-8 lg:py-24">
+				<img 
+					src="/images/heritage-bg.jpg" 
+					alt="" 
+					className="absolute inset-0 h-full w-full object-cover opacity-30"
+				/>
+				<div className="relative mx-auto max-w-7xl">
 					<p className="mb-4 text-sm font-semibold uppercase tracking-[0.18em] text-emerald-200">
 						Heritage Explorer
 					</p>
@@ -65,8 +70,7 @@ export default function HeritagePage() {
 						Jelajahi Heritage Islam Jakarta
 					</h1>
 					<p className="mt-5 max-w-2xl text-base leading-7 text-emerald-100 sm:text-lg">
-						Temukan masjid, makam, dan jejak sejarah yang membentuk perjalanan
-						Islam di ibu kota.
+						jelajahi situs bersejarah islam di Jakarta dilengkapi sejarah, foto, video, animasi, peta, alamat, kontak, dan rute
 					</p>
 				</div>
 			</header>

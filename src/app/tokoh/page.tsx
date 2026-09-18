@@ -60,6 +60,11 @@ export default function TokohPage() {
 		<main>
 			<Navbar />
 			<section className="relative isolate overflow-hidden bg-emerald-900 px-5 pb-20 pt-28 text-center sm:px-8 sm:pt-32">
+				<img 
+					src="/images/tokoh-bg.png" 
+					alt="" 
+					className="absolute inset-0 h-full w-full object-cover opacity-30"
+				/>
 				<div
 					className="pointer-events-none absolute -right-24 -top-32 size-96 rounded-full border-32 border-amber-50/5"
 					aria-hidden="true"
