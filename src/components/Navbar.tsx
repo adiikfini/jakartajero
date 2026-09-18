@@ -35,13 +35,14 @@ export default function Navbar() {
 			>
 				<Link
 					href="/"
-					className="flex items-center gap-2 text-emerald-700 transition-colors hover:text-emerald-900"
+					className="flex items-center transition-colors hover:text-emerald-900"
 					aria-label="J-HERO Beranda"
 				>
-					<span className="flex size-9 items-center justify-center rounded-lg bg-emerald-700 text-white">
-						<BookOpen size={20} strokeWidth={2.25} aria-hidden="true" />
-					</span>
-					<span className="text-xl font-bold tracking-tight">J-HERO</span>
+					<img
+						src="/images/logo-jhero.png"
+						alt="Logo J-HERO"
+						className="h-12 w-auto object-contain cursor-pointer"
+					/>
 				</Link>
 
 				<div className="hidden items-center gap-8 lg:flex">

@@ -14,7 +14,7 @@ export default function Hero() {
 						Ruang Belajar J-HERO
 					</p>
 					<h1 className="text-5xl font-bold leading-[1.08] text-white">
-						Jelajahi, Temukan, dan Lestarikan Kearifan Islam di Jakarta
+						Jelajahi, temukan, dan lestarikan khazanah Islam dalam kearifan lokal di jakarta
 					</h1>
 					<p className="mt-6 max-w-xl text-base leading-8 text-gray-200 sm:text-lg">
 						Kenali jejak sejarah, budaya, dan warisan Islam Jakarta melalui

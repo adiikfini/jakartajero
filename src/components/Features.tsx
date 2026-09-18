@@ -11,42 +11,34 @@ const categories = [
 	{
 		title: "Heritage Explorer",
 		href: "/heritage",
-		icon: "MapPin",
+		imgUrl: "/images/mosque.png",
 		description: "Jelajahi masjid dan tempat bersejarah Islam di Jakarta.",
 	},
 	{
 		title: "Budaya Betawi",
 		href: "/budaya",
-		icon: "Tent",
+		imgUrl: "/images/ondel-ondel-feature.png",
 		description: "Kenali tradisi, kesenian, dan nilai Islami masyarakat Betawi.",
 	},
 	{
-		title: "Tokoh Islam",
+		title: "Tokoh Islam Jakarta",
 		href: "/tokoh",
-		icon: "Users",
+		imgUrl: "/images/tokoh.png",
 		description: "Pelajari biografi dan keteladanan ulama penyebar Islam.",
 	},
 	{
 		title: "Game Edukasi",
 		href: "/game",
-		icon: "Gamepad2",
+		imgUrl: "/images/joystick.png",
 		description: "Uji pengetahuanmu dengan kuis seru dan kumpulkan poin!",
 	},
 	{
 		title: "Event Center",
 		href: "/event",
-		icon: "CalendarDays",
+		imgUrl: "/images/date.png",
 		description: "Info pameran, kajian sejarah, dan tur budaya terdekat.",
 	},
 ];
-
-const categoryIcons = {
-	MapPin,
-	Tent,
-	Users,
-	Gamepad2,
-	CalendarDays,
-};
 
 export default function Features() {
 	return (
@@ -66,8 +58,6 @@ export default function Features() {
 
 				<div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-6 lg:gap-6">
 					{categories.map((item, index) => {
-						const Icon = categoryIcons[item.icon as keyof typeof categoryIcons];
-
 						return (
 						<Link
 							key={item.title}
@@ -76,7 +66,9 @@ export default function Features() {
 								index === 3 ? "lg:col-start-2" : ""
 							}`}
 						>
-							<Icon className="size-12 text-emerald-700" aria-hidden="true" />
+							<div className="flex size-20 items-center justify-center rounded-lg">
+								<img src={item.imgUrl} alt={item.title} className="size-20 object-contain" />
+							</div>
 							<h3 className="mt-5 text-lg font-bold leading-tight text-emerald-900">
 								{item.title}
 							</h3>
